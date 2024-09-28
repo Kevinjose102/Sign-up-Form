@@ -97,7 +97,7 @@ form{
 
 input{
     height: 50px;
-    width: 20rem;
+    width: 100%;
     font-size: 17px;
     padding: 10px;
     font-family: 'monospace';
@@ -170,4 +170,31 @@ input::placeholder{
 
 .login > span{
     color: rgba(15, 191, 15, 0.93);
+}
+
+@media only screen and (max-width: 500px){
+    .img-container{
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+    .image{
+        width: 0;
+        height: 0;
+    }
+    .form-container{
+        margin: 2px
+    }
+    input{
+        padding: 0;
+        width: 170px
+    }
+    form{
+        width: 100vw;
+        height: 100vh;
+        justify-content: left;
+    }
+    #submit{
+        width: 220px;
+    }
 }
