@@ -16,7 +16,7 @@
             <h2 class="tm">TM</h2>
             <img src="./pexels-monicore-1391487.jpg" alt="not found" class="image">
         </div>
-        <form action="" method="post">
+        <form action="" method="">
             <div class="form-container">
                 <h1 class="form-header">
                     Join Now
@@ -24,33 +24,46 @@
                 <div class="inputs">
                     <div class="row">
                         <div class="input-contatiner">
+                            <label for="first-name"></label>
                             <input class="input" type="text" id="first-name" name="first-name" placeholder="FIRST NAME"> 
+                            <div class="error"></div>
                         </div>
                         <div class="input-contatiner">
+                            <label for="email"></label>
                             <input class="input" type="email" id="email" name="email" placeholder="E-MAIL">
+                            <div class="error"></div>
                         </div>
                         <div class="input-contatiner">
+                            <label for="password"></label>
                             <input class="input" type="password" id="password" name="password" placeholder="PASSWORD">
+                            <div class="error"></div>
                         </div>
-                        
                     </div>
                     <div class="row">
                         <div class="input-contatiner">
+                            <label for="last-name"></label>
                             <input class="input" type="text" id="last-name" name="last-name" placeholder="LAST NAME">
+                            <div class="error"></div>
                         </div>
                         <div class="input-contatiner">
+                            <label for="phone"></label>
                             <input class="input" type="text" id="phone" name="phone" placeholder="PHONE">
+                            <div class="error"></div>
                         </div>
                         <div class="input-contatiner">
+                            <label for="confirm-password"></label>
                             <input class="input" type="password" id="confirm-password" name="confirm-password" placeholder="CONFIRM PASSWORD">
+                            <div class="error"></div>
                         </div>
                     </div>
                 </div>
                 <div class="submit">
                     <input type="submit" id="submit" value="Create Account" name="submit">
+                    <div class="login">Already have an account..?<span>LOG IN</span></div>
                 </div>
             </div>
         </form>
     </main>
+    <script src="./script.js"></script>
 </body>
 </html>

@@ -151,3 +151,23 @@ input::placeholder{
     cursor: default;
     transform: scale(0.9);
 }
+
+.error{
+    font-size: 17px;
+    margin: 0;
+    padding: 10px;
+    color: red;
+}
+
+.login{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgba(170, 170, 170, 0.847);
+    font-family: monospace;
+}
+
+.login > span{
+    color: rgba(15, 191, 15, 0.93);
+}
