@@ -173,28 +173,36 @@ input::placeholder{
 }
 
 @media only screen and (max-width: 500px){
-    .img-container{
-        width: 0;
-        height: 0;
-        visibility: hidden;
+    .image-container{
+        width: 15vh;
+        margin: 0;
+        padding: 0;
     }
     .image{
-        width: 0;
-        height: 0;
+        width: 15vh;
+        height: 100%;
+        object-fit: cover;
     }
     .form-container{
-        margin: 2px
+        margin: 0;
+        padding: 0;
     }
     input{
         padding: 0;
         width: 170px
     }
     form{
-        width: 100vw;
-        height: 100vh;
         justify-content: left;
+        transform: scale(0.7);
+        width: 30vh;
+        margin: 0;
+        padding: 0;
+        margin-right: 27vw;
     }
     #submit{
         width: 220px;
+    }
+    h2{
+        font-size: 0;
     }
 }
